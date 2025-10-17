@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parv Shah - Software Engineer Resume</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:linear-gradient(135deg,#2c3e50,#1a2530);
+  color:#f0f0f0;
+  font-family:'Inter',sans-serif;
+  line-height:1.7;
+  min-height:100vh;
+  padding:40px 20px;
+  max-width:900px;
+  margin:auto;
+}
+
+header{
+  text-align:center;
+  padding:50px 40px 35px;
+  border-bottom:1px solid rgba(255,255,255,0.15);
+}
+
+h1{
+  font-family:'Playfair Display',serif;
+  font-size:2.7rem;
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.title{
+  color:#b0b0b0;
+  font-size:1.3rem;
+  margin-bottom:25px;
+  font-style:italic;
+}
+
+.contact-info{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:18px;
+}
+
+.contact-item{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  background:rgba(255,255,255,0.1);
+  padding:6px 14px;
+  border-radius:20px;
+  transition:0.3s;
+}
+
+.contact-item:hover{
+  background:rgba(255,255,255,0.2);
+  transform:translateY(-2px);
+}
+
+.contact-item a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:400;
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+.contact-item i{
+  color:#fff;
+  font-size:1rem;
+}
+
+section{
+  padding:40px 10px;
+  border-bottom:1px solid rgba(255,255,255,0.15);
+}
+
+h2{
+  font-family:'Playfair Display',serif;
+  font-size:1.7rem;
+  font-weight:500;
+  color:#fff;
+  margin-bottom:18px;
+  position:relative;
+  display:inline-block;
+  padding-bottom:6px;
+}
+
+h2::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:60%;
+  height:2px;
+  background:rgba(255,255,255,0.3);
+}
+
+p{
+  color:#ddd;
+  font-size:1.05rem;
+  margin-bottom:12px;
+}
+
+.project-item,.education-item{margin-bottom:25px}
+
+.project-item h3,.education-item h3{
+  font-family:'Playfair Display',serif;
+  font-size:1.3rem;
+  color:#a5c9ff;
+  margin-bottom:8px;
+}
+
+.skills-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:8px;
+}
+
+.skill{
+  background:rgba(255,255,255,0.1);
+  padding:8px 16px;
+  border-radius:20px;
+  border:1px solid rgba(255,255,255,0.2);
+  font-size:0.95rem;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.skill:hover{
+  background:rgba(255,255,255,0.2);
+  transform:translateY(-3px);
+}
+
+.hobbies-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:10px;
+}
+
+.hobby-tag{
+  background:transparent;
+  padding:8px 18px;
+  border-radius:30px;
+  font-size:1rem;
+  color:#a5c9ff;
+  border:1px solid rgba(255,255,255,0.3);
+}
+
+.education-item{
+  margin-bottom:25px;
+  padding-left:18px;
+  border-left:3px solid rgba(255,255,255,0.2);
+}
+
+.degree{font-weight:600;font-size:1.1rem}
+.school{color:#ccc;margin-bottom:5px}
+.date{
+  display:inline-block;
+  font-size:0.9rem;
+  background:rgba(255,255,255,0.1);
+  padding:3px 10px;
+  border-radius:10px;
+  color:#b0b0b0;
+}
+
+@keyframes fadeInUp{
+  from{opacity:0;transform:translateY(25px)}
+  to{opacity:1;transform:none}
+}
+.animate{animation:fadeInUp 0.6s ease forwards}
+
+@media(max-width:768px){
+  header{padding:35px 20px}
+  h1{font-size:2.2rem}
+  section{padding:25px 10px}
+  .contact-info{flex-direction:column;gap:12px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Parv Shah</h1>
+  <div class="title">Software Engineer</div>
+  <div class="contact-info">
+    <div class="contact-item">
+      <a href="mailto:parv.shah24@sakec.ac.in">
+        <i class="fa-solid fa-envelope"></i>
+        parv.shah24@sakec.ac.in
+      </a>
+    </div>
+    <div class="contact-item">
+      <a href="https://www.linkedin.com/in/parv-shah-b35188330" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        linkedin.com/in/parvshah
+      </a>
+    </div>
+    <div class="contact-item">
+      <a href="https://github.com/parvshah" target="_blank">
+        <i class="fa-brands fa-github"></i>
+        github.com/parvshah
+      </a>
+    </div>
+    <div class="contact-item">
+      <i class="fa-solid fa-location-dot"></i>
+      Mumbai, India
+    </div>
+  </div>
+</header>
+
+<section class="summary">
+  <h2>About Me</h2>
+  <p>I’m a passionate Software Engineer with a strong background in full-stack development. Skilled in Java, Spring Boot, and React, I focus on creating efficient, scalable, and user-friendly web applications that deliver real impact.</p>
+</section>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <div class="project-item">
+    <h3>Full-Stack Task Manager App</h3>
+    <p>Developed a web application using React and Spring Boot, implementing JWT authentication and CRUD operations for managing tasks.</p>
+  </div>
+  <div class="project-item">
+    <h3>Portfolio Website</h3>
+    <p>Built a responsive personal portfolio website showcasing projects, animations, and contact forms using modern web technologies.</p>
+  </div>
+  <div class="project-item">
+    <h3>Open Source Contributions</h3>
+    <p>Contributed bug fixes and feature improvements to community projects, following clean code and Git workflow standards.</p>
+  </div>
+</section>
+
+<section class="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills-list">
+    <div class="skill">Java</div>
+    <div class="skill">Spring Boot</div>
+    <div class="skill">React</div>
+    <div class="skill">HTML5</div>
+    <div class="skill">CSS3</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">REST APIs</div>
+    <div class="skill">Git</div>
+    <div class="skill">SQL</div>
+  </div>
+</section>
+
+<section class="education">
+  <h2>Education</h2>
+  <div class="education-item">
+    <div class="degree">Bachelor of Science in Computer Science</div>
+    <div class="school">SAKEC</div>
+    <div class="date">2024 - 2028 (Ongoing)</div>
+  </div>
+  <div class="education-item">
+    <div class="degree">11th-12th</div>
+    <div class="school">S.I.E.S Arts & Science</div>
+    <div class="date">2021 - 2023</div>
+  </div>
+</section>
+
+<section class="hobbies">
+  <h2>Hobbies</h2>
+  <div class="hobbies-list">
+    <span class="hobby-tag">Gaming</span>
+    <span class="hobby-tag">3D Graphics</span>
+    <span class="hobby-tag">Blender</span>
+    <span class="hobby-tag">Video Editing</span>
+    <span class="hobby-tag">PC Building</span>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const sections=document.querySelectorAll('section');
+  const observer=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('animate')});
+  },{threshold:0.1});
+  sections.forEach(s=>{s.style.opacity=0;observer.observe(s)});
+});
+</script>
+
+</body>
+</html>
